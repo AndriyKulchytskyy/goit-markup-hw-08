@@ -1,0 +1,39 @@
+.works{
+    padding-bottom: 94px;    
+    
+    &__list{
+        display: flex;
+    }
+    
+    &__item{
+        position: relative;
+        
+        &:not(:last-child){
+            margin-right: 30px;
+        }
+    }
+    
+    &__overlay{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    
+        font-family: var(--main-font);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        @include centerFlex;
+
+        width: 100%;
+        height: 70px;
+        background-color: var(--works-img-overlay-bgcolor);
+        color:var(--hero-title-color);
+    }
+}
+
+
+
+

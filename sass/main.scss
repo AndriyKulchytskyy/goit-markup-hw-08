@@ -1,0 +1,29 @@
+//UTILS
+// @import "./utils/modern-normalise";
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/mixins";
+
+//BASE
+@import "./base/common";
+@import "./base/container";
+
+//COMPONENTS
+@import "./components/logo";
+@import "./components/modal_btn";
+@import "./components/social_list";
+@import "./components/backdrop";
+@import "./components/modal_windows";
+@import "./components/modal_form";
+@import "./components/section_title";
+
+//LAYOUTS
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/advantages";
+@import "./layout/what-we-do";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/portfolio_page-navigation";
+@import "./layout/portfolio_projects";
